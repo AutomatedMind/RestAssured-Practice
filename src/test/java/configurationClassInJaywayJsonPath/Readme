@@ -1,0 +1,18 @@
+Configuration Class in Jayway JsonPath
+The Configuration class in Jayway JsonPath is used to customize the behavior of JsonPath queries.
+It allows you to set various options to control how JsonPath operates, enabling more flexible and robust handling of JSON data.
+
+Default Configuration Method
+Configuration.defaultConfiguration(): This method provides a standard configuration for JsonPath with default settings.
+Use Case: The default configuration is ideal when you don't need any specific customization and want to use JsonPath with its standard behavior.
+Syntax:
+Configuration defaultConfig = Configuration.defaultConfiguration()
+                .addOptions(Option.ALWAYS_RETURN_LIST);  // Ensures that the result is always returned as a List
+
+Custom Configuration Method (builder())
+Configuration.builder(): This method is used to create a custom configuration with options tailored to your needs.
+Use Case: Use custom configurations when you need specific features.
+Syntax:
+Configuration customConfig = Configuration.builder()
+                .options(Option.DEFAULT_PATH_LEAF_TO_NULL)  // Returns "null" when a field does not exist
+                .build();

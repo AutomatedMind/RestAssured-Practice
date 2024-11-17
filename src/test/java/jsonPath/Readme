@@ -1,0 +1,24 @@
+Jayway JsonPath: Jayway JsonPath is a Java library that allows you to extract specific values
+from JSON documents, similar to how XPath works for XML.
+We use Jayway JsonPath to efficiently query and retrieve values from JSON data,
+especially when working with APIs.
+
+Key terminologies used in JsonPath:
+
+$: Represents the root of the JSON document.
+.: Dot notation to access properties of an object (e.g., $.store.book).
+[]: Used for accessing array elements (e.g., $.store.book[0]).
+* (wildcard): Matches all elements in an array or all properties in an object (e.g., $.store.book[*]).
+[start
+]: Array slicing to retrieve a subset of elements (e.g., $.store.book[0:2]).
+?(): Filter expression to filter elements based on a condition (e.g., $.store.book[?(@.price < 10)]).
+@: Refers to the current element in a filter expression (e.g., $.store.book[?(@.price < 10)]).
+
+JsonPathException occurs when the specified path in the JSON does not exist or
+when you try to access a field or element that is not present.
+
+<dependency>
+            <groupId>com.jayway.jsonpath</groupId>
+            <artifactId>json-path</artifactId>
+            <version>2.7.0</version>
+</dependency>

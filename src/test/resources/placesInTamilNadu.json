@@ -1,0 +1,25 @@
+{
+  "state": "Tamil Nadu",
+  "places": [
+    {
+      "name": "Chennai",
+      "famousFor": "Marina Beach",
+      "population": 7090000
+    },
+    {
+      "name": "Madurai",
+      "famousFor": "Meenakshi Temple",
+      "population": 1561129
+    },
+    {
+      "name": "Theni",
+      "famousFor": "Suruli Falls",
+      "population": 124000
+    },
+    {
+      "name": "Pondicherry",
+      "famousFor": "French Colony and Auroville",
+      "population": 657209
+    }
+  ]
+}

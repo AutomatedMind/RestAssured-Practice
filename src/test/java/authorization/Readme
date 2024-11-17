@@ -1,0 +1,29 @@
+Authentication and Authorization
+
+Authentication is the process of verifying who someone is (e.g., logging in with a username and password).
+Authorization is the process of verifying what access that person has (e.g., which resources or actions they can access based on their roles or permissions).
+
+Example: Netflix Account
+Authentication: When you log into Netflix using your email and password.
+    This ensures that you are the one who actually owns the account
+    and not someone who’s just trying to watch "Friends" without permission.
+
+Authorization: After logging in, Netflix checks if you can access content based on your subscription plan.
+ For example:
+    A basic plan user can watch on one screen at a time.
+    A premium plan user can watch on up to four screens at once,
+    so they can share their account with everyone they know... and probably end up paying for it anyway.
+
+Authorization Types:
+No auth
+Basic auth
+API Key
+Bearer Token
+OAuth
+
+API Key: Similar to a house key that opens the door without needing to prove who you are each time.
+Example: A website uses an API key to give you access to its public data without requiring a login.
+Bearer Token: Like a concert ticket that grants you access to specific areas or features.
+Example: After logging in, your application receives a bearer token, allowing you to access certain API endpoints until the token expires.
+OAuth 2.0: Like a VIP pass that grants access after verifying your identity and permissions, usually with an external service (e.g., Google or Facebook).
+Example: You log into a third-party app using your Google account. The app gets specific permissions to access your Google calendar but does’t get full access to your account.

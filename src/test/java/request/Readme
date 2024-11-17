@@ -1,0 +1,17 @@
+HTTP Requests:
+Client requests on the internet are made in the form of HTTP.
+
+Client:
+Anyone who makes a request.
+
+Server:
+A program that receives a request from the client, processes it, and returns a response.
+
+HTTP Methods:
+The entire web functions with the help of HTTP requests and responses, making HTTP methods the backbone of these communications.
+
+Types of HTTP Methods:
+GET: Used to retrieve data from the server.
+POST: Used to send data to the server, often to create or update a resource.
+PUT: Used to update an existing resource or create a new one if it doesn’t exist.
+DELETE: Used to delete a specific resource on the server.

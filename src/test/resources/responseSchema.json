@@ -1,0 +1,14 @@
+{
+  "type": "array",
+  "items": {
+    "type": "object",
+    "properties": {
+      "id": { "type": "integer" },
+      "name": { "type": "string" },
+      "origin": { "type": "string" },
+      "strength": { "type": "string" },
+      "flavor": { "type": "string" }
+    },
+    "required": ["id", "name", "origin", "strength", "flavor"]
+  }
+}

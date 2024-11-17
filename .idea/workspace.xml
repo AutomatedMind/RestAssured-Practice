@@ -1,0 +1,226 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="8e9f709f-dfe8-49f7-b4b4-7bfc6a7b8595" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/DeserializationWays/JaywayJsonPathForDeserialization.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/DeserializationWays/ObjectMapperForDeserialization.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/DeserializationWays/RestAssuredJsonPathForDeserialization.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/authorization/ApiKeyAuth.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/authorization/BasicAuth.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/authorization/BearerAuth.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/authorization/OAuth2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/authorization/Readme" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/complexJson/Readme" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/complexJson/deserialization/DeserializationForComplexJson.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/complexJson/financeEntitiesTransponster/Account.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/complexJson/financeEntitiesTransponster/Customer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/complexJson/financeEntitiesTransponster/Loan.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/complexJson/financeEntitiesTransponster/Mortgage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/complexJson/financeEntitiesTransponster/Payment.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/complexJson/financeEntitiesTransponster/Transaction.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/complexJson/serialization/SerializationForComplexJson.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/configurationClassInJaywayJsonPath/ConfigurationClassMain.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/configurationClassInJaywayJsonPath/CustomConfigurationWithBuilder.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/configurationClassInJaywayJsonPath/DefaultConfigurationWithAlwaysReturnList.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/configurationClassInJaywayJsonPath/DefaultConfigurationWithDefaultPathLeafToNull.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/configurationClassInJaywayJsonPath/Readme" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/jsonAnnotation/JsonGetterAnnotation.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/jsonAnnotation/JsonPropertyAnnotation.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/jsonAnnotation/JsonValueAnnotation.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/jsonAnnotation/Readme" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/jsonPath/ReadJsonUsingJsonPath.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/jsonPath/ReadJsonWithDocumentContext.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/jsonPath/Readme" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/jsonSchema/JsonSchemaValidation.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/jsonSchema/JsonSchemaValidationWithHamcrest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/jsonSchema/Readme" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/pojoSerializationDesrialization/PojoClassSerializationDeserialization.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/pojoSerializationDesrialization/Readme" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/request/Readme" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/request/requestWithBDD/CreateEmployeeBDD.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/request/requestWithBDD/DeleteEmployeeBDD.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/request/requestWithBDD/GetEmployeesBDD.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/request/requestWithBDD/UpdateEmployeeBDD.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/request/requestWithoutBDD/CreateEmployeeRequest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/request/requestWithoutBDD/DeleteEmployeeRequest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/request/requestWithoutBDD/GetAllEmployeesRequest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/request/requestWithoutBDD/UpdateEmployeeRequest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/requestSpecification/Readme" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/requestSpecification/RequestSpecificationDetails.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/requestSpecification/RequestSpecificationExample.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/resources/inputRequest.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/resources/placesInTamilNadu.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/resources/responseSchema.json" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Interface" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 3
+}</component>
+  <component name="ProjectId" id="2l1U6lqJS3wAmpSq52kKgQt1yxP" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Application.ConfigurationClass.executor": "Run",
+    "Application.ConfigurationClassMain.executor": "Run",
+    "Application.Deserialization.executor": "Run",
+    "Application.EmployeePOJO.executor": "Run",
+    "Application.JaywayJsonPathForDeserialization.executor": "Run",
+    "Application.JsonAnyGetterSerializer.executor": "Run",
+    "Application.JsonGetterExample.executor": "Run",
+    "Application.JsonGetterPojo.executor": "Run",
+    "Application.JsonPropertyOrderPojo.executor": "Run",
+    "Application.JsonValuePojo.executor": "Run",
+    "Application.KnowYourReturnType.executor": "Run",
+    "Application.ObjectMapperForDeserialization.executor": "Run",
+    "Application.PojoClassSerializationDeserialization.executor": "Run",
+    "Application.PojoSerializationDeserializationDemo.executor": "Run",
+    "Application.PredicateInJsonPath.executor": "Run",
+    "Application.ReadJsonDocumentUsingJsonPath.executor": "Run",
+    "Application.RequestSpecificationDetails.executor": "Run",
+    "Application.getRequestSpecificationProperties.executor": "Run",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "TestNG.ApiKeyAuth.executor": "Run",
+    "TestNG.BasicAuth.executor": "Run",
+    "TestNG.BearerAuth.executor": "Run",
+    "TestNG.CreateEmployeeBDD.executor": "Run",
+    "TestNG.DeserializationForComplexJson.executor": "Run",
+    "TestNG.EmployeeRequestBDD.getAllEmployees.executor": "Run",
+    "TestNG.EmployeesRequest.executor": "Run",
+    "TestNG.GetAllEmployees.executor": "Run",
+    "TestNG.GetEmployeesBDD.executor": "Run",
+    "TestNG.JsonSchemaValidation.executor": "Run",
+    "TestNG.JsonSchemaValidation.validateUsingJsonSchemaInClasspath.executor": "Debug",
+    "TestNG.JsonSchemaValidationUsingHamcrestMatcher.executor": "Run",
+    "TestNG.ReadJsonUsingJsonPath.executor": "Run",
+    "TestNG.ReadJsonWithDocumentContext.executor": "Run",
+    "TestNG.Serialization.executor": "Run",
+    "TestNG.SerializationForComplexJson.executor": "Run",
+    "full.screen.before.presentation.mode": "false",
+    "git-widget-placeholder": "master",
+    "ignore.virus.scanning.warn.message": "true",
+    "kotlin-language-version-configured": "true",
+    "last_directory_selection": "E:/Selenium/RestAssuredPractice/src/test/java",
+    "last_opened_file_path": "E:/Selenium/RestAssuredPractice/src/test",
+    "onboarding.tips.debug.path": "E:/Selenium/RestAssuredPractice/src/main/java/org/example/Main.java",
+    "project.structure.last.edited": "Project",
+    "project.structure.proportion": "0.0",
+    "project.structure.side.proportion": "0.0",
+    "settings.editor.selected.configurable": "vcs.Git"
+  }
+}]]></component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="E:\Selenium\RestAssuredPractice\src\test" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="E:\Selenium\RestAssuredPractice\src\test\java\request\requestWithBDD" />
+      <recent name="E:\Selenium\RestAssuredPractice\src\test\java\DeserializationWays" />
+      <recent name="E:\Selenium\RestAssuredPractice\src\main\java" />
+      <recent name="E:\Selenium\RestAssuredPractice\src\test\java\complexJson" />
+    </key>
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="" />
+    </key>
+  </component>
+  <component name="RunManager">
+    <configuration name="EmployeeRequestBDD.getAllEmployees" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="RestAssuredPractice" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="EmployeeRequestBDD" />
+      <option name="METHOD_NAME" value="getAllEmployees" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="GetAllEmployeesRequest" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="RestAssuredPractice" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="request.requestWithBDD.requestWithoutBDD.GetAllEmployeesRequest" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="TestNG.EmployeeRequestBDD.getAllEmployees" />
+        <item itemvalue="TestNG.GetAllEmployeesRequest" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="jdk-21.0.2-openjdk-21.0.2-4caba194b151-4f524021" />
+      </set>
+    </attachedChunks>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="8e9f709f-dfe8-49f7-b4b4-7bfc6a7b8595" name="Changes" comment="" />
+      <created>1724346905842</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1724346905842</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/org/example/Main.java</url>
+          <line>13</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+</project>

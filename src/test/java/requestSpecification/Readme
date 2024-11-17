@@ -1,0 +1,31 @@
+RequestSpecification:
+
+It is an interface provided by Rest Assured that helps you set up the basic properties of an HTTP request, such as:
+Base URI: The main server URL to send requests to.
+Headers: Additional information sent with the request (e.g., content type).
+Body: The data payload included in requests like POST or PUT.
+Query parameters, cookies, etc.
+
+This RequestSpecificationExample class focuses on creating and managing
+a reusable RequestSpecification in Rest Assured for HTTP API testing.
+By setting up a common RequestSpecification, the code becomes cleaner and more maintainable
+since the base URI, headers, and body setup can be defined once and reused across multiple tests.
+
+SpecificationQuerier and QueryableRequestSpecification are used in Rest Assured
+for inspecting the details of a request that has been created.
+
+SpecificationQuerier:
+This is a utility class that allows you to query or inspect a RequestSpecification object.
+It helps you see what has been set up in the request (e.g., headers, body, base URI).
+
+QueryableRequestSpecification:
+This is an object that holds the detailed information of a request after it has been queried using SpecificationQuerier.
+It allows you to access and print out properties like the base URI, headers, query parameters, and body content.
+
+In simple terms:
+
+SpecificationQuerier is like a tool you use to examine a built request.
+QueryableRequestSpecification is like the report that shows you what the request looks like after you inspect it.
+
+
+

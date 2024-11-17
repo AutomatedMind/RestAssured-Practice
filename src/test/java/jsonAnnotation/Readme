@@ -1,0 +1,8 @@
+Annotations:
+Lombok Annotations:
+@Getter and @Setter are used for automatic generation of getter and setter methods to reduce boilerplate code.
+
+@JsonGetter annotation is used to customize the name of the getter method (Key) in the JSON output
+@JsonProperty helps in specifying custom names for fields during serialization and deserialization.
+ It can also be used to control the order of properties in the JSON output.
+@JsonValue to indicate that this method's return value will be serialized as the object value

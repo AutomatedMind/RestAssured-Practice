@@ -1,0 +1,35 @@
+POJO Class:
+A POJO (Plain Old Java Object) is a simple Java class that follows basic design principles.
+It contains fields, constructors, and getter/setter methods.
+It does not need to inherit from a specific class or implement specific interfaces.
+
+How to Serialize/Deserialize a POJO Class:
+To serialize/Deserialize a POJO class, you can use a library like Jackson's jackson-databind,
+which converts the object into a JSON string.
+
+Steps to serialize a POJO class using Jackson:
+
+Create an ObjectMapper instance.
+Use the method writeValueAsString() from ObjectMapper to convert the Java object to a JSON string.
+
+Steps to Deserialize a POJO class using Jackson:
+Create an ObjectMapper instance.
+Use the method readValue() from ObjectMapper to convert the JSON string back into a Java object.
+
+Serialization:
+Serialization is the process of converting a Java object into a format like JSON or XML
+so that it can be easily stored, transmitted, or transformed (e.g., when sending data in an API request).
+
+Deserialization:
+Deserialization is the reverse process, where data in formats like JSON or XML is converted back into a Java object
+so that the program can work with it.
+
+Jackson Library:
+The Jackson library simplifies the process of serialization and deserialization between Java objects and JSON.
+
+To use Jackson in your project, you need to include the following dependency in your pom.xml:
+<dependency>
+    <groupId>com.fasterxml.jackson.core</groupId>
+    <artifactId>jackson-databind</artifactId>
+    <version>2.15.2</version> <!-- Make sure to check for the latest version -->
+</dependency>

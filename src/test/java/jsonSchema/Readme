@@ -1,0 +1,25 @@
+Validating the Response:
+Once we get the response from the API, we need to check if the response is correct.
+This is where JSON Schema validation comes in.
+
+JSON Schema:
+A JSON schema is like a blueprint or set of rules that defines how the data should look.
+It tells us what fields should be there, their data types (like string, number, etc.)
+and whether they are required or not.
+
+JsonSchemaValidator.matchesJsonSchemaInClasspath("responseSchema.json"): This line checks if the response data follows the rules defined in the responseSchema.json file.
+
+{
+  "type": "array",  // The response should be a list (array)
+  "items": {
+    "type": "object",  // Each item in the list should be an object (dictionary)
+    "properties": {
+      "id": { "type": "integer" },   // id should be an integer
+      "name": { "type": "string" },  // name should be a string
+      "origin": { "type": "string" }, // origin should be a string (e.g., country of origin)
+      "strength": { "type": "string" }, // strength should be a string (e.g., Strong, Medium, Mild)
+      "flavor": { "type": "string" }  // flavor should be a string (e.g., Bold, Creamy, Smooth)
+    },
+    "required": ["id", "name", "origin", "strength", "flavor"]  // These fields must be present in each object
+  }
+}
