@@ -1,10 +1,9 @@
-package DeserializationWays;
+package deserializationWays;
 
-import com.fasterxml.jackson.databind.ObjectMapper;
-import java.io.IOException;
+import io.restassured.path.json.JsonPath;
 import java.util.Map;
 
-public class ObjectMapperForDeserialization {
+public class RestAssuredJsonPathForDeserialization {
 
     // JSON data representing a Marvel Character
     static String jsonValue = "{\n" +
@@ -14,15 +13,15 @@ public class ObjectMapperForDeserialization {
             "  \"skills\" : [ \"Web-Slinging\", \"Martial Arts\", \"Wall-Crawling\" ]\n" +
             "}";
 
-    public static void main(String[] args) throws IOException {
-        usingObjectMapperForDeserialization();
+    public static void main(String[] args) {
+        usingRestAssuredJsonPathForDeserialization();
     }
 
-    public static void usingObjectMapperForDeserialization() throws IOException {
-        System.out.println("Deserialization using Object Mapper");
-        ObjectMapper objectMapper = new ObjectMapper();
-        // Reading JSON and converting it to a Map
-        Map<String, Object> marvelCharacter = objectMapper.readValue(jsonValue, Map.class);
+    public static void usingRestAssuredJsonPathForDeserialization() {
+        System.out.println("Deserialization using RestAssured JSONPath");
+        // Parsing the JSON and converting it to a Map using RestAssured
+        JsonPath jsonFile = JsonPath.from(jsonValue);
+        Map<String, Object> marvelCharacter = jsonFile.get("$");
         // Printing each field
         System.out.println("Name: " + marvelCharacter.get("name"));
         System.out.println("Alias: " + marvelCharacter.get("alias"));

@@ -1,4 +1,4 @@
-package DeserializationWays;
+package deserializationWays;
 
 import com.jayway.jsonpath.Configuration;
 import com.jayway.jsonpath.JsonPath;
